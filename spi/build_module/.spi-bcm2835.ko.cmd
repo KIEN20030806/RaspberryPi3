@@ -1,0 +1,1 @@
+cmd_/home/kien/bcmspi/spi-bcm2835.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/kien/bcmspi/spi-bcm2835.ko /home/kien/bcmspi/spi-bcm2835.o /home/kien/bcmspi/spi-bcm2835.mod.o;  true

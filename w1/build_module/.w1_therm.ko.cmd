@@ -1,0 +1,1 @@
+cmd_/home/kien/w1/w1_therm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/kien/w1/w1_therm.ko /home/kien/w1/w1_therm.o /home/kien/w1/w1_therm.mod.o;  true

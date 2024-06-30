@@ -1,0 +1,1 @@
+cmd_/home/kien/w1/w1-gpio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/kien/w1/w1-gpio.ko /home/kien/w1/w1-gpio.o /home/kien/w1/w1-gpio.mod.o;  true
